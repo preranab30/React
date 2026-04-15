@@ -34,25 +34,81 @@
 
 
 
+//import React from 'react'
+// import Home from "./components/Home"
+// import Login from "./components/Login"
+// import { BrowserRouter as Router, Routes,Route } from 'react-router-dom'
+// import Nav from './components/nav'
+
+
+// const App = () => {
+//   return (
+//     <div>
+//       <Router>
+//         <Nav/>
+//         <Routes>
+//           <Route path="/" element={<Home />} />
+//           <Route path="/Login" element={<Login/>}/>
+//         </Routes>
+//       </Router>
+//     </div>
+//   );
+// }
+
+//export default App
+
+// import React from 'react'
+// import { BrowserRouter as Router, Routes,Route } from 'react-router-dom'
+// import Log from './components/Log';
+
+// function App() {
+//   return (
+//     <div>
+//        <Router>
+//       <Routes>
+//         <Route path="/" element={<Log />} />
+//         {/* <Route path="/register" element={<Register />} /> */}
+//       </Routes>
+//     </Router>
+  
+      
+//     </div>
+//   )
+// }
+
+// export default App
+// import Log from "./components/Log";
+
+// function App() {
+//   return (
+//     <div>
+//       <Log />
+//     </div>
+//   );
+// }
+
+// export default App;
 import React from 'react'
-import Home from "./components/Home"
-import Login from "./components/Login"
-import { BrowserRouter as Router, Routes,Route } from 'react-router-dom'
-import Nav from './components/nav'
+import ParentComp from "./components/ParentComp"
+import Login from './components/Login1';
+import  Form1 from './components/Form1';
 
-
-const App = () => {
+function App() {
   return (
     <div>
-      <Router>
-        <Nav/>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Login" element={<Login/>}/>
-        </Routes>
-      </Router>
+       {/* <ParentComp/>
+       <Log/> */}
+       {/* <Login/> */}
+       <Form1/>
+      
     </div>
-  );
+   
+  )
 }
 
 export default App
+
+
+
+
+
